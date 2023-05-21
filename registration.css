@@ -1,0 +1,114 @@
+body {
+    background: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#form {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px rgb(182, 182, 42);
+}
+
+#form h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #000;
+    border: none;
+    outline: none;
+    margin: 0;
+    height: 40px;
+}
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #000;
+    border: none;
+    outline: none;
+    margin: 0;
+    height: 40px;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: #000;
+    border: none;
+    outline: none;
+    margin: 0;
+    height: 30px;
+    background-color: yellow;
+    opacity: 0.7;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: opacity 0.3s ease;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.input-control label {
+    margin-bottom: 5px;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    margin-top: 5px;
+}
